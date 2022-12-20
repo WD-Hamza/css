@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: #2C106A;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1{
+font-size: 35px;
+color: white;
+text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 20px;
+}
+
+.d-1,.d-2,.d-3,.d-4{
+    background-color: #C8A2C8;
+    width: 100px;
+    height:130px;
+ 
+    /* display:inline-block; */
+    float: left;
+
+   padding: 5px;
+   text-align: center;
+ 
+   display: flex;
+   justify-content: center;
+    
+
+}
+.d-3{
+    border-top: 60px solid transparent;
+  border-bottom:60px solid transparent;
+
+  border-right: 60px solid  #4c3186;
+  
+  
+
+}
+
+.d-1{
+    border-top: 60px solid transparent;
+    border-bottom:60px solid transparent;
+  
+    border-left: 60px solid  #4c3186;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+}
+
+/* .arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-bottom: 5px solid black;
+} */
+
+/* .arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+} */
+
+.Dis-1 {
+ 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  
+  border-left: 60px solid #8F00FF;
+  
+}
+.Dis-1>h4{
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    /* display: block; */
+}
+
+.D-2{
+    background-color:#CCCCFF ;
+    width: 200px;
+    height: 150px;
+    /* display: flex;
+    justify-content: center; */
+
+    margin: 15px;
+    padding: 5px;
+    
+    color: #2C106A;
+    
+    font-weight: bold;
+    flex-wrap: wrap;
+
+}
+p{
+    font-size: 40px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+/* .arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid blue; 
+} */
+
